@@ -1,0 +1,42 @@
+target_kind,api_name,uk_name,api_re,test1,test2,test3
+powder,pulver,порошок,(.*)(pu[d|l|dd|dl]+[lvaæer]*)\.*(.*),pulver,pul.,inh.pulver
+powder,substans,порошок,(.*)(sub[stanscaæe]*)\.*(.*),injektionssubstans,substans,inh.sub.
+injector,injektor,Ін'єкції,(.*)(inj[ektorion]*)\.*(.*),inj.,injekt.,injektion
+injector,konc,концентрат,(.*)(konc)\.*(.*),konc. t. kutanvæske,konc. til oral opl.,konc.+solv.t.inf.opl
+injector,nebula,ампула,(.*)(ne*b[ulaeæ]*)\.*(.*),nebul.,neb.,nebula
+injector,infusion,для в/в вприску,(.*)(inf[usion]*)\.*(.*),inf.,infusion,infusionsvæske
+drops,solven,рочинник,(.*)(sol[vens]*)\.*(.*),solvens,solv.,sol
+drops,væske,рiдина/розчин,"(.*)(v[aæe]{0,2}s[ke]*)\.*(.*)",væske,vsk.,vaeske
+drops,emulsion,емульсiя,(.*)(em[ulsion]*)\.*(.*),emu.,emulsion,ems.
+drops,suspension,суспензiя,(.*)(sus[pension]*)\.*(.*),suspension,sus.,sus.
+drops,opløsn,краплi,(.*)(op[l|lø|lo]*[sn]*)[ing\.]*(.*),opløsn,opl.,oplosn
+drops,inhalation,iнгаляцiя,(.*)(inh[aæeltion]*)\.*(.*),inh.,inhalation,inhal. pulv.
+drops,syrup,сироп,(.*)(sy*r[up]*)\.*(.*),syrup,sr.,syr.
+drops,dråber,краплi,(.*)(dr[å|a|b|d]+[berd]*)\.*(.*),dråber,draber,drb.
+drops,pour-on spot-on,краплi,(.*)((pour|spot)-on)(.*),spot-on,pour-on,pour-on
+drops,flydende,рідина,(.*)(fly*[den]*[de]*)\.*(.*),flydende,flydende,flydende
+tube,salve,мазь/крем,(.*)(s[al|l]+[ve]*)\.*(.*),salve,salv.,slv.
+tube,creme,мазь/крем,(.*)(cr[eme]*)\.*(.*),creme,crm.,crm.
+tube,gel,мазь/крем,(.*)(ge[l]*)\.*(.*),øjengel,gel.,ge
+spray,spray,спрей,(.*)(sp[ray]*)\.*(.*),spray,spr.,sp.t.næse
+patch,vævskultur | klæber,лейкопластир,(.*)(v[a|æ|e]*vs[kulturaæeb]*)\.*(.*),vævsklæber,vævskultur,vævs
+patch,plaster,лейкопластир,(.*)(pla*st[er]*)\.*(.*),plaster,plast.,plast.
+patch,gaze,марля,(.*)(gaze*)\.*(.*),gaze,gaz.,gaz.
+pill,tablette,таблетки,(.*)(t[ab|bl|æb]+[l|let|lett|lette]*)\.*(.*),tablette,tabl.,tbl.
+pill,kapsler,таблетки,(.*)(k[ap|p|æp|ep]+[aæesultr]*)\.*(.*),kapsler,kap.,kps.
+pill,granulat,таблетки,(.*)(gr[a|æ|e]*[nulaæet]*)\.*(.*),granulat,gr.,gran.
+pill,depot,аккумулир.,(.*)(d[e]*p[ot]*)\.*(.*),depot,dep.,depotgran.
+pill,hård,тяжкий,(.*)(h[a|å]*rd)(.*),hård,hard,hård kap.
+pill,enteral,кишечник,(.*)(ent[eralæ]*)(.*),enter.,ent.,entæral
+pill,uterint,матка,(.*)(ut[erint]*)\.*(.*),intrauterint,solven til segeuterint,solven til segeuterint
+pill,tygge-,жувальн-,(.*)(tyg[ge]*)\.*(.*),tyggepulver,tyggepulver,tyggepulver
+pill,suge-,смоктальн-,(.*)(su[ge]*)\.*(.*),sugepulver,sugepulver,sugepulver
+spray,næse, нiс,(.*)(n[æ|a|e|ae]+se*)\.*(.*),pulver til næse,inf.væsk.t.næs.,inf.væsk.t.næs.
+spray,intra-,внутрiшньо-,(.*)(in[tra]*)[-\.]*(.*),pul.solv.t.intraves.,pul.solv.t.intraves.,pul.solv.t.intraves.
+spray,smel[te]-,нюхальн-,(.*)(smel[te]*)\.*(.*),smeltepudder,smeltepudder,smeltepudder
+tube,kutan,шкiра,(.*)(kut[an]*)\.*(.*),konc. t. kutanvæske,kutanplaster,kutanskum
+tube,mammær,цицьки,(.*)(ma[m|mm]+[aæer]*)\.*(.*),intramammær,intramam.,intramam.
+tube,rektal,жопи,(.*)(re[c|k|ct|kt][al|um|u|i]*)\.*(.*),intrarekt.,intrarektal,pud.t.rektum
+tube,vagin,пiська,(.*)(vag[inalt]*)\.*(.*),vagitprier,intravaginal,intravaginal
+drops,øre,вухо,(.*)([ø|o]+re*)\.*(.*),ørevsk.,ør.inj.væsk.,or.inj.vaesk.
+drops,øjen,око,(.*)([ø|o]+jen*)\.*(.*),øjenpulver,øjenpvr.,øjenpvr.
